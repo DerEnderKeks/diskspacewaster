@@ -25,10 +25,8 @@ func main() {
 	check(err)
 
 	fmt.Println("writing...")
-	data := make([]byte, 1048576)
-	for i := 0; i < *size; i++ {
-		f.Write(data)
-	}
+	err = f.Truncate(int64(*size) * 1048576)
+	check(err)
 
 	fmt.Println("syncing...")
 	f.Sync()
