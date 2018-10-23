@@ -17,7 +17,7 @@ Just execute it! You can optionally use the following CLI arguments:
 
 | Flag | Parameters | Default | Description |
 | --- | --- | --- | --- |
-| `-f` | `<path>` | `iamwastingdiskspace` | Path of the file to write to. **Warning: The file will be overridden!** |
+| `-f` | `<path>` | `iamwastingdiskspace` | Path of the file to write to. **Warning: The file will be overwritten!** |
 | `-s` | `<size in MB>` | `1` | Size of the file in MB. |
 
 # License
