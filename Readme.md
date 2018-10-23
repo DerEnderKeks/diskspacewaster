@@ -5,6 +5,12 @@ It does this by creating an empty (zero-filled) file with the size of your choic
 
 Thanks to the [`os.Truncate`](https://golang.org/pkg/os/#Truncate) function it is also blazing fast!
 
+# Installation
+
+1. Install [Go](https://golang.org/doc/install#install)
+2. Compile this project with `go build`
+3. (optional) Install the binary with `go install`
+
 # Usage
 
 Just execute it! You can optionally use the following CLI arguments:
