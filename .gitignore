@@ -1,4 +1,8 @@
-.*
-*.exe
+# Let's just ignore everything except the few files that actually belong into the repository
+*
+
+!main.go
+!LICENSE
+!Readme.md
 
 !.gitignore
