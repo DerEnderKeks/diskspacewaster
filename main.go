@@ -13,7 +13,7 @@ func main() {
 	flag.Parse()
 
 	_, err := os.Stat(*path)
-	if os.IsExist(err) {
+	if !os.IsNotExist(err) {
 		fmt.Println("Deleting old file...")
 		err := os.Remove(*path)
 		check(err)
